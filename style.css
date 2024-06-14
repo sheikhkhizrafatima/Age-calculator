@@ -90,28 +90,33 @@ span{
 
 @media screen and (max-width:780px) {
     h1{
-        font-size: 2rem;
+        font-size: 17px;
     }
     .container{
         width: 35%;
-        height: 25%;
+        height: 30%;
+        padding: 50px;
     }
-    .container label{
-        font-size: 1.2rem;
+    label{
+        font-size: 10px;
+        max-height: 60%;
 
     }
-    .container input{
-        width: 80%;
-        height: 40px;
-        padding: 12px;
+    input{
+        width: 90%;
+        padding: 12px
+    }
+    #birth{
+        font-size: smaller
     }
     #submit{
-        padding: 6px;
+        width: 60%;
+        font-size: smaller;
+        padding: 3px;
     }
-    #result{
-        margin-top: 10px;
-        font-size: 1rem;
-        padding: 10px;
-        text-align: center;
+    p{
+     font-size: smaller;
+     margin-top: 2px;
+    text-align: center;  
     }
 }
