@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(2,0,36);
+    background: rgb(20,30,48);
+background: radial-gradient(circle, rgba(20,30,48,1) 32%, rgba(166,148,233,1) 100%);
+}
+.container{
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 28%;
+    min-height: 30%;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 15px;
+    color: black;
+   
+}
+h1{
+    color: #efff;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+label{
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    
+}
+
+input{
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 70%;
+    height: 20px;
+    outline: none;
+    border: 1px solid #243b65;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+#submit{
+    width: 7rem;
+    height: 45px;
+    margin-top: 2rem;
+    border: 1px solid #ffa527;
+    border-radius: 12px;
+    color:#243b55;
+    font-weight: 600;
+    background-color: #ffa527;
+    font-size: 1.3rem;
+   cursor: pointer;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   transition: 0.5s;
+}
+
+#submit:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+p{
+margin-top: 40px;
+color: #243b65;
+padding: 8px 30px;
+font-size: 1.3rem;
+font-weight: 600;
+}
+
+span{
+    color: brown;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+
+@media screen and (max-width:780px) {
+    h1{
+        font-size: 2rem;
+    }
+    .container{
+        width: 35%;
+        height: 25%;
+    }
+    .container label{
+        font-size: 1.2rem;
+
+    }
+    .container input{
+        width: 80%;
+        height: 40px;
+        padding: 12px;
+    }
+    #submit{
+        padding: 6px;
+    }
+    #result{
+        margin-top: 10px;
+        font-size: 1rem;
+        padding: 10px;
+        text-align: center;
+    }
+}
